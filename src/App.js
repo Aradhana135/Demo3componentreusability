@@ -19,7 +19,7 @@ function App(props) {
         <td> Id</td>
         <td>Name</td>
         <td>Email</td>
-        <td>Username</td>
+        <td>User_Name</td>
       </tr>
       {
         users.map((item)=> <User item={item}/>)

@@ -1,13 +1,14 @@
 import React from 'react'
 // import Card from './Card'
 const User = (props) => {
+  const {id,name,email,user_Name}=props.item
   return (
     <>
-        <tr key={props.item.id}>
-            <td>{props.item.id}</td>
-            <td>{props.item.name}</td>
-            <td>{props.item.email}</td>
-            <td>{props.item.username}</td>
+        <tr key={id}>
+            <td>{id}</td>
+            <td>{name}</td>
+            <td>{email}</td>
+            <td>{user_Name}</td>
         </tr>
     </>
   )
